@@ -10,23 +10,35 @@ const Works = () => {
 		<div className="works">
 			<Card
 				icon={faBriefcase}
-				title="Work"
+				title="Background"
 				body={
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
+								src="./uhx-logo.jpg"
 								alt="facebook"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">UHX Travel Central</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Travel Consultant <br />2023 - Present
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration"></div>
 						</div>
 
 						<div className="work">
+							<img
+								src="./ctu-logo.webp"
+								alt="facebook"
+								className="work-image"
+							/>
+							<div className="work-title">Cebu Technological University</div>
+							<div className="work-subtitle">
+								Bachelor of Science in Tourism Management <br /> 2023 - Present
+							</div>
+						</div>
+
+						{/* <div className="work">
 							<img
 								src="./twitter.png"
 								alt="twitter"
@@ -37,7 +49,7 @@ const Works = () => {
 								Software Engineer
 							</div>
 							<div className="work-duration">2019 - Present</div>
-						</div>
+						</div> */}
 					</div>
 				}
 			/>

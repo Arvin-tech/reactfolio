@@ -2,10 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
-	faTwitter,
-	faGithub,
-	faLinkedin,
+	faFacebook,
 	faInstagram,
+	faTiktok
 } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
@@ -16,30 +15,18 @@ const Socials = () => {
 	return (
 		<div className="socials">
 			<div className="social">
-				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
+				<a href={INFO.socials.facebook} target="_blank" rel="noreferrer">
 					<div className="social-icon">
 						<FontAwesomeIcon
-							icon={faTwitter}
+							icon={faFacebook}
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on Twitter</div>
+					<div className="social-text">Follow on Facebook</div>
 				</a>
 			</div>
 
-			<div className="social">
-				<a href={INFO.socials.github} target="_blank" rel="noreferrer">
-					<div className="social-icon">
-						<FontAwesomeIcon
-							icon={faGithub}
-							className="social-icon"
-						/>
-					</div>
-					<div className="social-text">Follow on GitHub</div>
-				</a>
-			</div>
-
-			<div className="social">
+			{/* <div className="social">
 				<a
 					href={INFO.socials.linkedin}
 					target="_blank"
@@ -53,7 +40,7 @@ const Socials = () => {
 					</div>
 					<div className="social-text">Follow on LinkedIn</div>
 				</a>
-			</div>
+			</div> */}
 
 			<div className="social">
 				<a
@@ -68,6 +55,22 @@ const Socials = () => {
 						/>
 					</div>
 					<div className="social-text">Follow on Instagram</div>
+				</a>
+			</div>
+
+			<div className="social">
+				<a 
+					href={INFO.socials.tiktok}
+					target="_blank"
+					rel="noreferrer"
+				>
+					<div className="social-icon">
+						<FontAwesomeIcon
+							icon={faTiktok}
+							className="social-icon"
+						/>
+					</div>
+					<div className="social-text">Follow on Tiktok</div>
 				</a>
 			</div>
 

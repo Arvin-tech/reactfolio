@@ -34,7 +34,7 @@
 }
 
 .about-subtitle {
-	width: 80% !important;
+	width: 90% !important;
 }
 
 .about-left-side {
@@ -67,6 +67,12 @@
 
 .about-socials-mobile {
 	display: none;
+}
+
+.about-works {
+	width: 90% !important;
+	flex-basis: 600px;
+	padding-top: 30px;
 }
 
 @media (max-width: 1024px) {
@@ -103,6 +109,12 @@
 	.about-socials-mobile {
 		padding-top: 30px;
 		display: flex;
+	}
+
+	.about-works {
+		flex-basis: auto;
+		margin-left: -25px;
+		margin-right: -25px;
 	}
 }
 
