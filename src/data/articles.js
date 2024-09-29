@@ -3,9 +3,9 @@ import React from "react";
 function article_1() {
 	return {
 		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		title: "Title here",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"description here",
 		keywords: [
 			"The Benefits of Cloud Computing",
 			"Tharindu",
@@ -42,9 +42,9 @@ function article_1() {
 function article_2() {
 	return {
 		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		title: "title here",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
+			"description here",
 		style: ``,
 		keywords: [
 			"Artificial Intelligence in Healthcare",

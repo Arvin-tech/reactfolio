@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+	faGoogle,
 	faFacebook,
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
@@ -148,7 +149,7 @@ const Homepage = () => {
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faMailBulk}
+									icon={faGoogle}
 									className="homepage-social-icon"
 								/>
 							</a>
